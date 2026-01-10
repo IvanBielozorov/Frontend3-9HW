@@ -1,9 +1,9 @@
 // Task 1
 const fruits = ["Apple", "Pear", "Banana", "Watermelon", "Lemon"];
-const logItems = function (items) {
-    for (let i = 0; i < items.length; i++) {
-        console.log(i + 1 + " - " + items[i]);
-    }
+function logItems(array) {
+  for (let i = 0; i < array.length; i++) {
+    console.log(i + 1 + " - " + array[i]);
+  }
 } 
 logItems(fruits);
 // Task 2
